@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link href="//code.ionicframework.com/nightly/css/ionic.css" rel="stylesheet">
+    <script src="//code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vgbtnspinner.min.js"></script>
+    <style>
+      ion-content {
+        top: 20vh !important;
+      }
+
+      .btncss {
+          text-align: center;
+      }
+    </style>
+  </head>
+  <body ng-app="app">
+      <ion-content ng-controller="myCtrl">
+
+        <vg-btn-spinner
+          text="Login"
+          vgclass="btncss"
+          icon="lines"
+          fn-on-start="fnStart()"
+          fn-on-end="fnEnd()">
+        </vg-btn-spinner>
+
+      </ion-content>
+  </body>
+</html>
