@@ -21,7 +21,7 @@ estado de "cargando" hasta que el proceso finaliza.
 ## Uso
 En el template llamar a la directiva de esta manera
 
-```
+	```
 	<vg-btn-spinner
 	text="Login"
 	vgclass="btncss"
