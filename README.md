@@ -4,7 +4,7 @@ vg-btn-spinner es un modulo de Angular.js para utilizar en Ionic Framework. Prop
 estado de "cargando" hasta que el proceso finaliza.
 
 ## Instalación
-1. Descargar el zip o clonar el repositorio de https://github.com/vicentegarcia/...
+1. Descargar el zip o clonar el repositorio de https://github.com/vicentegarcia/vg-btn-spinner
 
 2. Incluir en el index.html el fichero javascript
 
