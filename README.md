@@ -21,7 +21,6 @@ estado de "cargando" hasta que el proceso finaliza.
 ## Uso
 En el template llamar a la directiva de esta manera
 
-	```
 	<vg-btn-spinner
 	text="Login"
 	vgclass="btncss"
@@ -29,7 +28,6 @@ En el template llamar a la directiva de esta manera
 	fn-on-start="fnStart()"
 	fn-on-end="fnEnd()">
 	</vg-btn-spinner>
-	```
 
 ## Configuración
 - text: Texto del botón
